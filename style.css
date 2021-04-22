@@ -1,0 +1,30 @@
+.tudo {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.nota_n1 {
+    padding-bottom: 5px;
+}
+
+.nota_n2 {
+    padding-bottom: 5px;
+}
+
+.nota_aps {
+    padding-bottom: 5px;
+}
+
+#detalhe {
+    padding-top: 3px;
+    font-size: 14px;
+}
+
+.botao_submit {
+    padding: 5px;
+}
+
+#media {
+    padding-top: 5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel = "stylesheet" href = "reset.css">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Cálculo média Fundamentos para Computação</title>
+</head>
+<body>
+    <div class = "tudo">
+        <div class = "nota_n1">
+            <label for = "nota_n1_label">A1:</label>
+            <input type = "text" name = "nota_n1_label" id = "n1"placeholder = "Maior nota da N1" class = "nota_n1_input">
+        </div>
+
+        <div class = "nota_n2">
+            <label for = "nota_n2_label">A2</label>
+            <input type = "text" name = "nota_n2_input" id = "n2" placeholder = "Insira a nota da última prova">
+        </div>
+
+        <div class = "nota_aps">
+            <label for = "nota_aps_label">APS*</label>
+            <input type = "text" name = "nota_aps_label" id = "aps" placeholder = "Insira a nota da APS">
+            <p id = "detalhe">*Se no Blackboard aparece 0.8, coloque 8</p>
+        </div>
+
+        <div class = "botao_submit">
+            <input type = "submit" class = "btn_submit" onclick = submit() value = Calcular>
+        </div>
+
+        <div class = "media_div">
+            <p>Média:</p>
+            <p id = "media">0.0</p>
+        </div>
+
+    </div>
+
+    <script language = "javascript" src = "javascript.js"></script> 
+</body>
+</html>
